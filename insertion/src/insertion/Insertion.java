@@ -15,7 +15,7 @@ public class Insertion {
       s.insert( 8);
       s.insert( 10);
       s.d(s);
-  /*x.rght= new node(4);
+  x.rght= new node(4);
   x.lft=new node(6);
   x.lft.lft=new node(8);
   x.rght.rght=new node(3);
@@ -33,7 +33,7 @@ public class Insertion {
 System.out.println();
   x.d1(x);
   x.insert(7);
-    x.d1(x);*/
+    x.d1(x);
   
     }
     
