@@ -192,6 +192,22 @@ node rot=null;
              
            
        }
+    public class insert {
+    node rot;
+    insert(){ rot=null;};
+
+    
+    
+    public node repeat(node rot, int s){
+        if(rot==null)
+            return new node(s);
+        if(s<rot.da)
+            rot.lft=repeat(rot.lft, s);
+        else if(s>rot.da)
+            rot.rght=repeat(rot.rght, s);
+        return rot;
+    }
+    
     }
 
 
